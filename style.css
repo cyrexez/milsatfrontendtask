@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+body {font-family: 'Rubik', Arial, sans-serif; font-size: 18px;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.main {background: hsl(226, 43%, 10%); padding: 200px 150px;}
+
+.user {background: hsl(235, 46%, 20%); padding: 0; border-radius: 12px;}
+.details { display: flex; justify-content: space-between; padding: 20px 20px 40px; flex-direction: column;
+    border-radius: 12px; background: hsl(246, 80%, 60%)}
+.avatar { width: 48px; height: 48px; margin-bottom: 20px; border: 2px solid #FFFF; border-radius: 50%;}
+.details small {font-size: 14px; color: #c2c2c2;}
+.details h3 {font-size: 30px; color: #FFFF; font-weight: 300;}
+
+.time-frame { display: flex; flex-direction: column; padding: 20px 20px 10px;}
+.time-frame a {color: #c2c2c2; text-decoration: none; font-size: 16px; margin: 5px 0;}
+.time-frame a:hover {color: #FFFF;}
+
+.items {display: flex; flex-direction: row; justify-content: space-between;}
+.item {border-radius: 12px; padding: none; padding-top: 30px; width: 30%;}
+.item-main {background: hsl(235, 46%, 20%); border-radius: 12px; padding: 20px;}
+.item-main h3 {font-size: 30px; color: #FFFF; font-weight: 300; margin-bottom: 0;}
+.item-main p {color: #FFFF; display: inline-block; font-size: 16px; font-weight: 400;}
+.item-main a {color: #c2c2c2; text-decoration: none; display: inline-block;}
+.item-main a:hover {color: #FFFFFF;}
+.item-main small {color: #c2c2c2; font-size: 14px; margin: auto 0;}
+
+@media screen and (max-width: 767px) {
+    .main {padding: 100px 12px;}
+    .details {flex-direction: row; padding:30px;}
+    .avatar { width: 60px; height: 60px; margin-bottom: 00px; margin: auto 0;}
+    .time-frame {flex-direction: row; justify-content: space-between; padding: 15px 30px;}
+    .items {flex-direction: column; padding: 30px 0;}
+    .item {padding-top: 35px; width: 100%; margin: 15px 0;}
+    .item-main { padding: 30px;}
+}
+
